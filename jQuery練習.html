@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery練習</title>
+   
+    <link rel="stylesheet" href="css/jQuery練習.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <link rel="stylesheet" href="css/lightbox.min.css">
+
+    <link rel="stylesheet" href="css/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jQuery練習.js"></script>
+
+</head>
+<body>
+   
+    <div class="content-novibanner">
+            <h3>════旅行════</h3>
+            <div class="slider-wrapper theme-default">       
+                <div id="slider" class="nivoSlider">
+                         
+                    <img src="images/t1.jpg" data-thumb="images/t1.jpg" alt="" />
+                    <img src="images/t11.jpg" data-thumb="images/t11.jpg" alt="" />
+                    <img src="images/t7.jpg" data-thumb="images/t7.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/t9.jpg" data-thumb="images/t9.jpg" alt=""  />
+                    <img src="images/t10.jpg" data-thumb="images/t10.jpg" alt=""  />
+
+                </div>         
+            </div>                       
+    </div>
+    
+    <div class="header">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <div class="menu">
+                <ul class="menu-dropdown">
+                    <li>
+                        <a href="#" class="dropdown-button"><img src="images/menu-turkey.png" alt=""></a>
+                        <ul>
+                            <li><a href="#">Day ONE</a></li>
+                            <li><a href="#">Day TWO</a></li>
+                            <li><a href="#">Day THREE</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-button"><img src="images/menu-guam.png" alt=""></a>
+                        <ul>
+                                <li><a href="#">Day ONE</a></li>
+                                <li><a href="#">Day TWO</a></li>
+                                <li><a href="#">Day THREE</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-button"><img src="images/menu-japan.png" alt=""></a>
+                        <ul>
+                                <li><a href="#">Day ONE</a></li>
+                                <li><a href="#">Day TWO</a></li>
+                                <li><a href="#">Day THREE</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                         <a href="#" class="aside-button"><img src="images/img-sidebar.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>    
+        </div>
+    
+
+    <div class="aside" >
+        <a href="#" class="aside-closebtn"><img src="images/aside-closebtn.png" alt=""></a>
+        <ul>
+            <li><a href='#home'>HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#events">EVENTS</a></li>
+            <li><a href="#sch">SCHEDULE</a></li>
+            <li><a href="#team">TEAM</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#spons">SPONSORS</a></li>
+            <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <div class="clearfix"></div>
+   
+
+    <div class="content-lightbox">
+            <h3>════異國旅行二三事════</h3>
+            <div>
+                <a class="example-image-link" href="images/t5-2.jpg" data-lightbox="example-set" data-title="土耳其是一個"><img class="example-image" src="images/t5-2.jpg" alt=""/></a>
+                <a class="example-image-link" href="images/t13.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/t13.jpg" alt="" /></a>
+                <a class="example-image-link" href="images/t15.jpg" data-lightbox="example-set" data-title=""><img class="example-image" src="images/t15.jpg" alt="" /></a>
+            </div>
+    </div>
+
+    <div class="content-info"></div>
+
+    <div class="footer">
+        <ul>
+            <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </div>
+    <div class="top"><a href="#"><img src="images/top.png" alt=""></a></div>
+    
+      
+            
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</body>
+</html>
